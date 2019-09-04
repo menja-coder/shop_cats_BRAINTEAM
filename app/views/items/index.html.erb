@@ -1,0 +1,30 @@
+<!--########################-->
+<!--####   container  ######-->
+<!--########################-->
+<section class="container">
+  <div class="containerTitles">
+    <h1>CHATS A VENDRE</h1>
+  </div>
+
+  <div class="component-systemTabs">
+    <div class="tabs-container">
+      <ul class="tabs"></ul>
+
+      <div id="tab-1" data-tab-title="First" class="tab-content current">
+        <div class="cards">
+
+          <%@items.each do |item|%>
+            <div class="card">
+              <img src="<%=item.image_url%>">
+
+              <div class="cardContent">
+                <h2><%=item.title%><br></h2>
+              <%=link_to "show", item_path(item.id), class:"btn btn-primary" %>
+              </div>
+            </div>
+          <%end%>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

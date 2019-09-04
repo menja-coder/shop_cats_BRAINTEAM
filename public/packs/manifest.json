@@ -1,0 +1,24 @@
+{
+  "application.js": "/packs/js/application-05bc83490fcade04d051.js",
+  "application.js.map": "/packs/js/application-05bc83490fcade04d051.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-05bc83490fcade04d051.js"
+      ],
+      "js.map": [
+        "/packs/js/application-05bc83490fcade04d051.js.map"
+      ]
+    },
+    "photochat": {
+      "js": [
+        "/packs/js/photochat-176f17c9d4d69281dbd7.js"
+      ],
+      "js.map": [
+        "/packs/js/photochat-176f17c9d4d69281dbd7.js.map"
+      ]
+    }
+  },
+  "photochat.js": "/packs/js/photochat-176f17c9d4d69281dbd7.js",
+  "photochat.js.map": "/packs/js/photochat-176f17c9d4d69281dbd7.js.map"
+}
